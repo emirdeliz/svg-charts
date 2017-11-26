@@ -1,0 +1,69 @@
+body {
+  /* background: #ccc; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.chart {
+  height: 500px;
+  width: 800px;
+  padding: 20px 20px 20px 0;
+}
+
+.graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+  text-anchor: end;
+}
+
+.graph .grid {
+  stroke: #ccc;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+.labels {
+  font-size: 13px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  fill: black;
+}
+
+.data {
+  fill: #1BA68E;
+  stroke-width: 1;
+}
+
+.point-circle {
+  stroke: #1BA68E;
+  stroke-width: 1;
+}
+
+.point-circle:hover {
+  stroke-width: 10;
+}
+
+.tooltip {
+  font-size: 12px;
+}
+
+.tooltip-bg {
+  fill: white;
+  stroke: black;
+  stroke-width: 1;
+  opacity: 0.85;
+  height: 17px;
+}
